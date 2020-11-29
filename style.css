@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.part1 {
+
+    float: left;
+    width: 50%;
+    background-color: black;
+    color: white;
+    height: 50%;
+    text-align: center;
+}
+
+
+.part1 h1 {
+    font-size: 35px;
+    color: white;
+    padding: 10px;
+}
+
+.part1 h1:first-of-type {
+    margin-top: 60px;
+}
+
+.part2 {
+    width: 50%;
+    float: right;
+    background-color: lightseagreen;
+    height: 50%;
+    text-align: center;
+}
+
+#math {
+    font-size: 20px;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+#chemistry {
+    font-size: 20px;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+#physics {
+    font-size: 20px;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+#programming {
+    font-size: 20px;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+#btn {
+    font-size: 20px;
+    padding: 10px 20px;
+}

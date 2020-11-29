@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students Grade Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: powderblue;">
+    
+    <h1 style="text-align: center; font-size: 40px; padding: 30px 0px;">Student Grade Calculator</h1>
+    <div class="container">
+        
+        <div class = "part1">
+            <h1>Your percentage is: </h1>
+            <h1 id = "percentage"></h1>
+            <br>
+            <h1>Your grade is: </h1>
+            <h1 id = "grade"></h1>
+        </div>
+    
+        <div class="part2">
+            <br><br>
+            <h2 style="font-size: 30px;">Enter your marks</h2>
+            <br>
+            <input type="text" id="math" placeholder="Math"><br>
+            <input type="text" id="chemistry" placeholder="Chemisty"><br>
+            <input type="text" id="physics" placeholder="Physics"><br>
+            <input type="text" id="programming" placeholder="Programming"><br>
+            <br>
+            <button id="btn" type="submit" onclick="calculate()">Submit</button>
+        </div>
+        <h1 id = "result"></h1>
+
+    </div>
+
+    
+
+
+
+    <script type="text/javascript" src="main.js"></script>
+    
+</body>
+</html>
